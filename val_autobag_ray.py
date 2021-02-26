@@ -19,7 +19,7 @@ config_train = {
             #"lr":1e-3,
             #"vf_loss_coeff": 0.5,
             "horizon":  30,
-            "num_gpus": 1,
+            "num_gpus": 0,
             "model":{"fcnet_hiddens": [64, 64]},
             "num_workers": 1,
             "env_config":{"generalize":True, "run_valid":False},
