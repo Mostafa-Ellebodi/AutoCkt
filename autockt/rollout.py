@@ -17,7 +17,7 @@ from ray.rllib.agents.registry import get_agent_class
 from ray.tune.registry import register_env
 
 #from bag_deep_ckt.autockt.envs.bag_opamp_discrete import TwoStageAmp
-from envs.spectre_vanilla_opamp import TwoStageAmp
+from envs.ngspice_vanilla_opamp import TwoStageAmp
 
 EXAMPLE_USAGE = """
 Example Usage via RLlib CLI:
